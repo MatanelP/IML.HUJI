@@ -5,7 +5,6 @@ from numpy.linalg import inv, det, slogdet
 
 class UnivariateGaussian:
     """
-    tests
     Class for univariate Gaussian Distribution Estimator
     """
     def __init__(self, biased_var: bool = False) -> UnivariateGaussian:
