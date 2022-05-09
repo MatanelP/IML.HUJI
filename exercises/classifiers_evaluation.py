@@ -149,6 +149,5 @@ def compare_gaussian_classifiers():
 
 if __name__ == '__main__':
     np.random.seed(0)
-    GaussianNaiveBayes().fit(np.array([1,1,1,2,2,3,2,4,3,3,3,4]).reshape(-1,2), np.array([0,0,1,1,1,1]))
     run_perceptron()
     compare_gaussian_classifiers()
